@@ -1,0 +1,28 @@
+.social-container {
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+.logoClassBlack {
+    color: black;
+}
+
+.logoClassWhite {
+    color: white;
+}
+
+.icon-margin {
+    margin-right: 2.4vw;
+}
+
+.social-container-footer {
+    display: flex;
+    margin: auto;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .icon-margin {
+        margin-right: 20px,;
+    }
+}

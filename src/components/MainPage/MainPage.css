@@ -1,0 +1,47 @@
+/* New CSS */
+.containers {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.header-containers {
+    display: flex;
+    justify-content: center;
+    /* position: absolute; */
+    position: fixed;
+    top: 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    box-sizing: border-box;
+    position: absolute;
+    left: 54%;
+    top: 36%;
+}
+
+.box .myname {
+    font-size: 3.2vw;
+    font-weight: bold;
+    color: rgb(48, 48, 48);
+}
+
+.box .what-am-i {
+    font-size: 1.8vw;
+}
+
+.text-seperator {
+    border: 0.1vw solid black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    color: black;
+}

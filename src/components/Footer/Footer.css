@@ -1,0 +1,31 @@
+.footer-container {
+    color: white;
+    background-color: rgb(48, 48, 48);
+}
+
+.v-center {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.footer-icon {
+    vertical-align: -webkit-baseline-middle;
+}
+
+.fs-12 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.align-center {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .mt-20 {
+        margin-top: 20px;
+    }
+}

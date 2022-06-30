@@ -1,0 +1,50 @@
+.header-container {
+    z-index: 44;
+    background-color: black;
+    opacity: 0.7;
+    display: flex;
+    border-radius: 5px;
+}
+
+.header {
+    cursor: pointer;
+}
+
+.header-item {
+    font-size: 16px;
+    color: cornsilk;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .header-item {
+        font-size: 12px;
+    }
+}
+
+/* Screen sizes between Mobile & Tablet */
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+    .header-item {
+        font-size: 14px;
+    }
+}
+
+/* Screen sizes between Tablet & Laptop */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .header-item {
+        font-size: 16px;
+    }
+}
+
+/* Screen size between laptop and large laptop */
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .header-item {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .header-item {
+        font-size: 20px;
+    }
+}
