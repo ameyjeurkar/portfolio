@@ -1,5 +1,5 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
+// import Typewriter from "typewriter-effect";
 import Header from './../Header/Header';
 import SocialMedia from "../SocialMedia/SocialMedia";
 import Main from './../../assets/images/main_bg2.jpg';
@@ -7,7 +7,7 @@ import './../MainPage/MainPage.css';
 // const words = ["Full Stack Developer"];
 
 const MainPage = () => {
-    const myRef = document.querySelector('.scrollable-div')
+    // const myRef = document.querySelector('.scrollable-div')
 
     return (
       <div id="homeSection" className="containers">
