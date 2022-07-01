@@ -44,4 +44,6 @@
     display: flex;
     flex-direction: row;
     color: black;
+    justify-content: center;
+    align-items: center;
 }

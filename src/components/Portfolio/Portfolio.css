@@ -31,6 +31,41 @@
     font-size: 14px;
 }
 
+/* SlideUp Animation */
+.liquid-box {
+    position: relative;
+    opacity: 0.6;
+    transform: scale(1.03, 1.03);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.liquid-box::after {
+    content: url("./../../assets/images/view_project_grad.png");
+    /* content: url(""); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 105%;
+    bottom: -100%;
+    background: var(--framework-background);
+    opacity: 0.8;
+    animation: slideup 1s ease-in-out forwards;
+}
+
+@keyframes slideup {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+
+/* Media Queries */
 @media only screen and (max-width: 768px) {
     .section-title {
         font-size: 22px;

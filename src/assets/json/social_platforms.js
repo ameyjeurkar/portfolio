@@ -2,9 +2,9 @@ export const SocialPlatforms = [
   {
     platform: "twitter",
     logoClass: "fa fa-twitter",
-    display: true,
+    display: false,
     displaySequence: 1,
-    hoverColor: "yellow",
+    hoverColor: "rgb(29, 161, 242)",
     profileLink: "https://www.twitter.com",
   },
   {
@@ -12,7 +12,7 @@ export const SocialPlatforms = [
     logoClass: "fa fa-facebook",
     display: true,
     displaySequence: 2,
-    hoverColor: "yellow",
+    hoverColor: "rgb(66, 103, 178)",
     profileLink: "https://www.facebook.com",
   },
   {
@@ -20,15 +20,15 @@ export const SocialPlatforms = [
     logoClass: "fa fa-instagram",
     display: true,
     displaySequence: 3,
-    hoverColor: "yellow",
+    hoverColor: "rgb(138, 58, 185)",
     profileLink: "https://www.instagram.com",
   },
   {
     platform: "snapchat",
     logoClass: "fa fa-snapchat",
-    display: true,
+    display: false,
     displaySequence: 4,
-    hoverColor: "yellow",
+    hoverColor: "rgb(255, 255, 0)",
     profileLink: "https://www.snapchat.com",
   },
   {
@@ -36,7 +36,7 @@ export const SocialPlatforms = [
     logoClass: "fa fa-linkedin",
     display: true,
     displaySequence: 5,
-    hoverColor: "yellow",
+    hoverColor: "rgb(0, 119, 181)",
     profileLink: "https://www.linkedin.com/in/amey-jeurkar-3a7476137",
   },
   {
@@ -44,7 +44,7 @@ export const SocialPlatforms = [
     logoClass: "fa fa-github",
     display: true,
     displaySequence: 6,
-    hoverColor: "yellow",
+    hoverColor: "rgb(250, 250, 250)",
     profileLink: "https://www.github.com",
   },
 ];

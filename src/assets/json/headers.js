@@ -18,8 +18,8 @@ export const HeaderJson = [
         "displaySequence": 3
     },
     {
-        "id": "servicesSection",
-        "label": "Services",
+        "id": "skillsSection",
+        "label": "Skills",
         "display": true,
         "displaySequence": 4
     },

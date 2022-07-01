@@ -7,12 +7,21 @@
     color: black;
 }
 
+.logoClassBlack:hover {
+    color: var(--hover-color);
+}
+
 .logoClassWhite {
     color: white;
 }
 
+.logoClassWhite:hover {
+    color: var(--hover-color);
+}
+
 .icon-margin {
-    margin-right: 2.4vw;
+    margin-right: 1.2vw;
+    margin-left: 1.2vw;
 }
 
 .social-container-footer {
