@@ -13,7 +13,7 @@ export const SocialPlatforms = [
     display: true,
     displaySequence: 2,
     hoverColor: "rgb(66, 103, 178)",
-    profileLink: "https://www.facebook.com",
+    profileLink: "https://m.facebook.com/100007024458087/",
   },
   {
     platform: "instagram",
@@ -21,7 +21,7 @@ export const SocialPlatforms = [
     display: true,
     displaySequence: 3,
     hoverColor: "rgb(138, 58, 185)",
-    profileLink: "https://www.instagram.com",
+    profileLink: "https://www.instagram.com/ahh.may/",
   },
   {
     platform: "snapchat",
@@ -45,6 +45,6 @@ export const SocialPlatforms = [
     display: true,
     displaySequence: 6,
     hoverColor: "rgb(250, 250, 250)",
-    profileLink: "https://www.github.com",
-  },
+    profileLink: "https://github.com/ahhmay",
+  }
 ];

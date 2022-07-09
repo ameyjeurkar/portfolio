@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
     Chart as ChartJS,
     RadialLinearScale,
@@ -20,23 +20,57 @@ ChartJS.register(
     Legend
 );
 
-export const data = {
-    labels: ['Javascript', 'CSS', 'HTML', 'ReactJS', 'AngularJS', 'MongoDB'],
-    datasets: [
-        {
-            label: 'Proficiency',
-            data: [7, 7, 8, 7, 6, 8],
-            backgroundColor: 'rgba(255, 99, 132, 0.3)',
-            borderColor: 'rgba(255, 99, 132, 1)',
-            borderWidth: 2
-        },
-    ],
-};
-
 const Skills = () => {
+    const [isHovered, setIsHovered] = useState(false);
+    const RadarOptions = {
+        scale: {
+            r: {
+                angleLines: {
+                    display: false
+                },
+                suggestedMin: 0,
+                suggestedMax: 10
+            },
+            angleLines: {
+                color: `${isHovered ? 'white' : 'white'}`,
+                lineWidth: 1
+            },
+            gridLines: {
+                color: `${isHovered ? 'white' : 'white'}`,
+                circular: true
+            }
+        }
+    }
+    
+    const data = {
+        labels: ['React', 'Angular', 'Javascript', 'Node.js', 'Expressjs', 'MongoDB'],
+        datasets: [
+            {
+                label: 'Proficiency',
+                data: [8, 7, 7, 6, 6, 8],
+                fill: true,
+                backgroundColor: 'rgb(212,59,64, 0.7)',
+                borderColor: `${isHovered ? 'white':'white'}`,
+                hoverBorderColor: `${isHovered ? 'white':'white'}`,
+                borderWidth: 2
+            }
+        ],
+    };
+
+    const handleHover = (value) => {
+        setIsHovered(value)
+    }
+
     return (
-        <div id="skillsSection" className="container skill-container">
-            <Radar data={data} />
+        <div id="skillsSection" className="container-fluid py-2 fade-in-hover-animation" onMouseOver={() => handleHover(true)} onMouseOut={() => handleHover(false)}>
+            <div className="row">
+                <div className="col-12">
+                    <p className="skill-title mb-0 mt-3">Skills</p>
+                </div>
+                <div className="col-12 skill-container d-flex margin-auto">
+                    <Radar data={data} options={RadarOptions}/>
+                </div>
+            </div>
         </div>
     )
 }

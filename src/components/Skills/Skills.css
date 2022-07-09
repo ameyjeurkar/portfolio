@@ -1,3 +1,49 @@
 .skill-container {
-    width: 30%;
+    width: 40%;
+}
+
+.skill-title {
+    font-size: 3vw;
+    font-weight: bold;
+    color: rgb(48, 48, 48);
+}
+
+.fade-in-hover-animation:hover .skill-title {
+    color: white;
+}
+
+.margin-auto {
+    display: flex;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .skill-container {
+        width: 60%;
+    }
+
+    .skill-title {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .skill-container {
+        width: 100%;
+    }
+}
+
+/* FadeIn Animation */
+.fade-in-hover-animation:hover {
+    color: white;
+    animation: fadein 2s forwards;
+}
+
+@keyframes fadein {
+    0% {
+        background-color: rgba(23,37,64, 0);
+    }
+    100% {
+        background-color: rgba(23,37,64, 1);
+    }
 }

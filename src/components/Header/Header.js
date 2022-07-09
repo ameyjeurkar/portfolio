@@ -14,7 +14,7 @@ const Header = () => {
               to={element.id}
               spy={true}
               smooth={true}
-              offset={-30}
+              offset={-50}
               duration={500}
             >
               {element.label}
