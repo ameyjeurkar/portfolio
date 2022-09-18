@@ -40,9 +40,17 @@
     overflow: hidden;
 }
 
-.liquid-box::after {
+.liquid-box:hover {
+    position: relative;
+    opacity: 0.6;
+    transform: scale(1.03, 1.03);
+    cursor: pointer;
+    overflow: hidden;
+    background: var(--framework-background);
+}
+
+/* .liquid-box::after {
     content: url("./../../assets/images/view_project_grad.png");
-    /* content: url(""); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +61,7 @@
     background: var(--framework-background);
     opacity: 0.8;
     animation: slideup 1s ease-in-out forwards;
-}
+} */
 
 @keyframes slideup {
     0% {
@@ -67,13 +75,6 @@
 .display-none {
     display: none;
 }
-
-/* Media Queries */
-/* @media only screen and (max-width: 1000px){
-    .display-none {
-        display: block;
-    }
-} */
 
 @media only screen and (max-width: 768px) {
     .section-title {

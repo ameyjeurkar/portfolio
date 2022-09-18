@@ -47,7 +47,7 @@ const Skills = () => {
         datasets: [
             {
                 label: 'Proficiency',
-                data: [8, 7, 7, 6, 6, 8],
+                data: [8, 7, 7, 7, 7, 8],
                 fill: true,
                 backgroundColor: 'rgb(212,59,64, 0.7)',
                 borderColor: `${isHovered ? 'white':'white'}`,

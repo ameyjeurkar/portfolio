@@ -26,16 +26,14 @@ const AboutMe = () => {
             </div>
             <div className="about-me-description mx-0">
               <p>
-              I'm enthusiastic and motivated frontend Developer with more than {calculateYearsofExperience(new Date('2020-12-14'), new Date())} of 
-              industry experience, working in the 
-              front-end technologies, building 
-              industry-grade web-applications and 
-              Distributed systems. Proficient in major 
-              web-application technologies (i.e.
-              React.js & Angular2+). I have maintained 
+              I'm a enthusiastic and motivated MERN/MEAN Stack Developer with more than {calculateYearsofExperience(new Date('2020-12-14'), new Date())} of 
+              industry experience working in the 
+              frontend & backend technologies, building 
+              industry-grade web-applications. Proficient in technologies like
+              React.js, Angular2+, Express, MongoDB Database. I have maintained 
               and developed multiple projects from 
               scratch, carrying the development of its 
-              frontend & backend codebase.
+              frontend & backend codebase from scratch.
               </p>
             </div>
             <div className="mx-0">
@@ -45,7 +43,7 @@ const AboutMe = () => {
                 className="btn btn-outline-light btn-size mx-0 btn-size"
                 onClick={downloadFile}>
                   <a href={ResumePdf} download="AmeyJeurkarResume" className="css-remove">
-                    View Resume
+                    Download Resume
                   </a>
               </button>
             </div>

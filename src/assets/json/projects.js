@@ -24,7 +24,7 @@ export const ProjectsJson = [
     displaySequence: 3,
   },
   {
-    projectType: "angular",
+    projectType: "mern",
     projectName: "MERN Job Portal",
     projectDesc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been called.",
     projectLink: "https://pensive-wilson-2b2f05.netlify.app/",
@@ -32,11 +32,19 @@ export const ProjectsJson = [
     displaySequence: 4,
   },
   {
-    projectType: "javascript",
+    projectType: "mern",
     projectName: "MERN Job Portal",
     projectDesc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     projectLink: "https://pensive-wilson-2b2f05.netlify.app/",
     display: false,
     displaySequence: 5,
+  },
+  {
+    projectType: "mern",
+    projectName: "MERN Stack Social",
+    projectDesc: "Designed and developed a Social app enabling users to login and add, edit, delete the post, follow/unfollow other users.\n For development of this application MERN Stack is used along with AWS S3 service for storing images.",
+    projectLink: "https://socialize-ourselfs.netlify.app/",
+    display: true,
+    displaySequence: 6,
   }
 ];

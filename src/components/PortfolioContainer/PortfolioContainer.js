@@ -17,7 +17,7 @@ const PortfolioContainer = () => {
                 </div>
                 <div className="col-12 d-flex flex-wrap justify-content-center">
                     {
-                        ProjectsJson.map(project => {
+                        ProjectsJson.sort((a, b)=> a.displaySequence - b.displaySequence).map(project => {
                         return (
                             <Portfolio key={project.displaySequence} project={project} pID={pID} liquidBoxAnimation={liquidBoxAnimation}/>
                         )
