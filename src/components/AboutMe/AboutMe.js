@@ -19,7 +19,7 @@ const AboutMe = () => {
     return (
       <div id="aboutMeSection" className="about-container container-fluid px-0 px-5">
         <div className="row d-flex justify-content-center my-3">
-          // <img src={AboutMePic} alt="About Me Pic" className="col-lg-6 col-md-6 col-sm-12 about-me-pic" />
+//           <img src={AboutMePic} alt="About Me Pic" className="col-lg-6 col-md-6 col-sm-12 about-me-pic" />
           <div className='col-lg-6 col-md-6 col-sm-12'>
             <div className="about-me-heading mx-0">
                 <p>About Me</p>
