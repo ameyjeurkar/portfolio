@@ -37,7 +37,7 @@ export const SocialPlatforms = [
     display: true,
     displaySequence: 5,
     hoverColor: "rgb(0, 119, 181)",
-    profileLink: "https://www.linkedin.com/in/amey-jeurkar-3a7476137",
+    profileLink: "https://www.linkedin.com/in/ameyjeurkar",
   },
   {
     platform: "github",
@@ -45,6 +45,6 @@ export const SocialPlatforms = [
     display: true,
     displaySequence: 6,
     hoverColor: "rgb(250, 250, 250)",
-    profileLink: "https://github.com/ahhmay",
+    profileLink: "https://github.com/ameyjeurkar",
   }
 ];
