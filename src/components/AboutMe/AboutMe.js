@@ -1,10 +1,10 @@
 import React from 'react';
-import ResumePdf from './../../assets/json/ameyjeurkar_resume.pdf';
+import ResumePdf from './../../assets/json/AmeyJeurkarMERN.pdf';
 import './AboutMe.css';
 
 const AboutMe = () => {
     const downloadFile = () => {
-      window.location.href = "./../../assets/json/ameyjeurkar_resume.pdf";
+      window.location.href = "./../../assets/json/AmeyJeurkarMERN.pdf";
     };
 
     const calculateYearsofExperience = (startDate, endDate) => {
