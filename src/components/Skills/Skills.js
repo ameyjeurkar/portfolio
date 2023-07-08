@@ -18,7 +18,7 @@ const Skills = () => {
                                 return (
                                     skill?.skillType==="frontend" && 
                                     <>
-                                        <img className="skill-icon" src={skill.skillIcon} alt={skill.skillName}/>
+                                        <img className="skill-icon" key={skill?.id} src={skill.skillIcon} alt={skill.skillName}/>
                                     </>
                                 )
                             })
@@ -34,7 +34,7 @@ const Skills = () => {
                                 return (
                                     skill?.skillType==="backend" && 
                                     <>
-                                        <img className="skill-icon" src={skill.skillIcon} alt={skill.skillName}/>
+                                        <img className="skill-icon" key={skill?.id} src={skill.skillIcon} alt={skill.skillName}/>
                                     </>
                                 )
                             })
@@ -50,7 +50,7 @@ const Skills = () => {
                                 return (
                                     skill?.skillType==="other" && 
                                     <>
-                                        <img className="skill-icon" src={skill.skillIcon} alt={skill.skillName}/>
+                                        <img className="skill-icon" key={skill?.id} src={skill.skillIcon} alt={skill.skillName}/>
                                     </>
                                 )
                             })

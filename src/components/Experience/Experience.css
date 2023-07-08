@@ -1,0 +1,32 @@
+.company-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience-container {
+    display: flex;
+    align-items: center;
+    border: 7px white;
+    z-index: 1;
+}
+
+.experience-title {
+    font-size: 3vw;
+    font-weight: bold;
+    position: relative;
+    white-space: nowrap;
+}
+
+.rotate-class {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 50%;
+}
+
+.rotate {
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+    transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+}

@@ -1,5 +1,6 @@
 import './App.css';
 import AboutMe from './components/AboutMe/AboutMe';
+import WorkExperience from './components/Experience/Experience';
 import Footer from './components/Footer/Footer';
 import MainPage from './components/MainPage/MainPage';
 import PortfolioContainer from './components/PortfolioContainer/PortfolioContainer';
@@ -11,6 +12,7 @@ function App() {
       <MainPage />
       <AboutMe />
       <Skills />
+      <WorkExperience />
       <PortfolioContainer />
       <Footer />
     </div>
