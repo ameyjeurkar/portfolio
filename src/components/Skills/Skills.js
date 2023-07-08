@@ -4,7 +4,6 @@ import './Skills.css';
 
 
 const Skills = () => {
-
     return (
         <div id="skillsSection" className="container-fluid py-2 fade-in-hover">
             <div className="row">
