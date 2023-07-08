@@ -12,7 +12,7 @@ const Skills = () => {
                     <p className="skill-title mb-0 mt-3">Skills</p>
                 </div>
                 <div className="col-12 d-flex pb-2 fade-in-hover">
-                    <div className="col-2 skill-type">FRONTEND</div>
+                    <div className="col-2 skill-type">Frontend</div>
                     <div className="col-10">
                         {
                             SkillJSON.map(skill => {
