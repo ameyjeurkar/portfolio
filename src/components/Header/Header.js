@@ -7,7 +7,7 @@ const Header = () => {
     return (
       <div className="header-container my-2">
         {HeaderJson.map((element) => (
-          element.display && <div className="header mx-2 p-1" key={element.displaySequence}>
+          element.display && <div className="header mx-2 py-1" key={element.displaySequence}>
             <Link
               className="header-item"
               activeClass="active"
