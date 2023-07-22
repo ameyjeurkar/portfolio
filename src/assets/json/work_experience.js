@@ -28,7 +28,7 @@ export const WorkExperienceJSON = [
     {
         "id": "analyst_accenture",
         "designation": "Full Stack Developer - Accenture",
-        "designationLocation": "Nagpur, Maharashtra",
+        "designationLocation": "Bengaluru, Karnataka",
         "responsibility": `<ul>
                                 <li>Leveraged the capabilities of Microfrontend architecture pattern to build a scalable application.</li>
                                 <li>Optimizing application performance and ensuring fast loading times.</li>

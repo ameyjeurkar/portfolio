@@ -30,3 +30,10 @@
     -webkit-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
     transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
 }
+
+@media only screen and (max-width: 500px) {
+    .experience-title {
+        font-size: 10vw;
+        padding-top: 5vw;
+    }
+}
