@@ -7,7 +7,7 @@ const Header = () => {
     return (
       <div className="header-container my-2">
         {HeaderJson.map((element) => (
-          <div className="header mx-2 p-1" key={element.displaySequence}>
+          element.display && <div className="header mx-2 p-1" key={element.displaySequence}>
             <Link
               className="header-item"
               activeClass="active"
@@ -17,7 +17,7 @@ const Header = () => {
               offset={-50}
               duration={500}
             >
-              {element.label}
+              {element.label.toUpperCase()}
             </Link>
           </div>
         ))}

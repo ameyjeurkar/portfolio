@@ -13,7 +13,7 @@ import MeanStackLogoImage1 from '../assets/images/tech_icons/mean_stack_3.png';
 /* background: rgb(255, 255, 0); yellow = javascript */
 export const getProjectTechnology = (frameworkName) => {
     if(frameworkName === 'react') {
-      return {framework: ReactLogoImage, background: 'rgb(68, 141, 205)'};
+      return {framework: ReactLogoImage, background: 'linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%)'};
     }
     else if(frameworkName === 'angular') {
         return {framework: AngularLogoImage, background: 'rgb(227, 49, 49)'};
@@ -25,7 +25,7 @@ export const getProjectTechnology = (frameworkName) => {
         return {framework: JavascriptLogoImage, background: 'rgb(222, 200, 75)'};
     }
     else if(frameworkName === 'mern') {
-        return {framework: MernStackLogoImage2, background: 'rgb(52, 52, 52)'};
+        return {framework: MernStackLogoImage2, background: 'linear-gradient(to top, #50cc7f 0%, #f5d100 100%)'};
     }
     else if(frameworkName === 'mean') {
         return {framework: MeanStackLogoImage1, background: 'rgb(52, 52, 52)'};

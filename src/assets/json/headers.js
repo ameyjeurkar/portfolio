@@ -14,7 +14,7 @@ export const HeaderJson = [
     {
         "id": "resumeSection",
         "label": "Resume",
-        "display": true,
+        "display": false,
         "displaySequence": 3
     },
     {
@@ -24,15 +24,21 @@ export const HeaderJson = [
         "displaySequence": 4
     },
     {
+        "id": "workExperience",
+        "label": "Work Experience",
+        "display": true,
+        "displaySequence": 5
+    },
+    {
         "id": "portfolioSection",
         "label": "Portfolio",
         "display": true,
-        "displaySequence": 5
+        "displaySequence": 6
     },
     {
         "id": "contactSection",
         "label": "Contact",
         "display": true,
-        "displaySequence": 6
+        "displaySequence": 7
     }
 ];

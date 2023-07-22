@@ -12,20 +12,21 @@
 
 .header-item {
     font-size: 16px;
-    color: cornsilk;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    font-weight: 600;
 }
 
 @media only screen and (max-width: 500px) {
     .header-item {
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 
 /* Screen sizes between Mobile & Tablet */
 @media only screen and (min-width: 500px) and (max-width: 768px) {
     .header-item {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 

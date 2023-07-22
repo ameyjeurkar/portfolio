@@ -6,7 +6,7 @@ import './Experience.css';
 const WorkExperience = () => {
     return (
         <>
-            <div className="experience-container">
+            <div className="experience-container" id="workExperience">
                 <div className="col-1 experience-title">
                     <div className="rotate-class rotate">
                         Work Experience
