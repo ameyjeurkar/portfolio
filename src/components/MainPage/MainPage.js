@@ -14,7 +14,7 @@ const MainPage = () => {
         <div className="box">
           <span className="myname mx-0 px-0">Amey Jeurkar</span>
           <span className="what-am-i mx-0 px-0">
-            I'm a <b> Frontend Developer</b>
+            I'm a <b> Full-Stack Developer</b>
             {/* I'm a <b>{" "} 
             <Typewriter
               onInit={(typewriter)=> {
