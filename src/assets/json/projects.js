@@ -46,5 +46,13 @@ export const ProjectsJson = [
     projectLink: "https://socialize-ourselfs.netlify.app/",
     display: true,
     displaySequence: 6,
-  }
+  },
+  {
+    projectType: "react",
+    projectName: "TV Schedule WebApp",
+    projectDesc: "Designed and developed simple TV Schedule application. This application tells us what shows are currently running in USA & also lets us search for our favourite shows.",
+    projectLink: "https://tv-schedule.netlify.app/",
+    display: true,
+    displaySequence: 7,
+  },
 ];
