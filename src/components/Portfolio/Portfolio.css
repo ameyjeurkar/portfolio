@@ -50,20 +50,6 @@
     background: var(--framework-background);
 }
 
-/* .liquid-box::after {
-    content: url("./../../assets/images/view_project_grad.png");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    height: 100%;
-    width: 105%;
-    bottom: -100%;
-    background: var(--framework-background);
-    opacity: 0.8;
-    animation: slideup 1s ease-in-out forwards;
-} */
-
 @keyframes slideup {
     0% {
         transform: translateY(0);

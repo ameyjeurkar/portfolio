@@ -23,7 +23,7 @@ const AboutMe = () => {
             </div>
             <div className="about-me-description mx-0">
               <p>
-                Welcome to my portfolio! I am an enthusiastic and dedicated MERN Full Stack developer with a passion for creating impactful and innovative web applications. Over the course of my <span className='experienceYears'>{calculateYearsofExperience(new Date('2020-12-14'), new Date())}</span>years journey in the world of software development, I have gained valuable experience and expertise that has shaped me into the professional I am today.
+                Welcome to my portfolio! I am an enthusiastic and dedicated MERN Full Stack developer with a passion for creating impactful and innovative web applications. Over the course of my <span className='experienceYears'>{calculateYearsofExperience(new Date('2020-12-14'), new Date())}</span> year journey in the world of software development, I have gained valuable experience and expertise that has shaped me into the professional I am today.
               </p>
               <p>
                 I have a strong belief in lifelong learning, especially in the fast-paced world of technology. I thrive on exploring new technologies and staying updated with the latest advancements. Whether it's diving into new frameworks, embracing emerging libraries, or delving into cloud technologies, I am always eager to expand my skill set and take on new challenges.

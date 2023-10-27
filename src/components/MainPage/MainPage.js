@@ -7,7 +7,7 @@ import './../MainPage/MainPage.css';
 const MainPage = () => {
     return (
       <div id="homeSection" className="containers">
-        <img className="image" src={Main} width="100%" alt="#" />
+        <img className="image" src={Main} loading="lazy" width="100%" alt="#" />
         <div className="header-containers">
             <Header />
         </div>
@@ -15,18 +15,6 @@ const MainPage = () => {
           <span className="myname mx-0 px-0">Amey Jeurkar</span>
           <span className="what-am-i mx-0 px-0">
             I'm a <b> Full-Stack Developer</b>
-            {/* I'm a <b>{" "} 
-            <Typewriter
-              onInit={(typewriter)=> {
-              typewriter              
-              .typeString("Full Stack Developer")                
-              .pauseFor(1000)
-              .deleteAll()
-              .typeString("Full Stack Developer")
-              .start();
-              }}
-            /> 
-            </b> */}
           </span>
           <hr className="text-seperator"></hr>
           <div className="social">
