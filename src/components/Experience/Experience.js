@@ -15,7 +15,7 @@ const WorkExperience = () => {
                 <div className="col-11">
                     <VerticalTimeline layout="1-column-left">
                         {
-                            WorkExperienceJSON.map(work => {
+                            WorkExperienceJSON.sort((a, b) => a.displaySequence - b.displaySequence).map(work => {
                                 return (
                                     <>
                                         <VerticalTimelineElement

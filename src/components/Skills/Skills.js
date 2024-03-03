@@ -6,13 +6,13 @@ import './Skills.css';
 const Skills = () => {
     return (
         <div id="skillsSection" className="container-fluid py-2 fade-in-hover">
-            <div className="row">
-                <div className="col-12">
+            <div className="row skill-container">
+                <div className="col-12 px-0">
                     <p className="skill-title mb-0 mt-3">Skills</p>
                 </div>
-                <div className="col-12 d-flex pb-2 fade-in-hover">
-                    <div className="col-2 skill-type">Frontend</div>
-                    <div className="col-10">
+                <div className="col-12 px-0 d-flex pb-2 fade-in-hover">
+                    <div className="col-2 px-0 skill-type">Frontend</div>
+                    <div className="col-10 px-0">
                         {
                             SkillJSON.map(skill => {
                                 return (
@@ -25,10 +25,10 @@ const Skills = () => {
                         }
                     </div>
                 </div>
-
-                <div className="col-12 d-flex pb-2">
-                    <div className="col-2 skill-type">Backend</div>
-                    <div className="col-10">
+                <hr className='skill-seperator'></hr>
+                <div className="col-12 px-0 d-flex pb-2">
+                    <div className="col-2 px-0 skill-type">Backend</div>
+                    <div className="col-10 px-0">
                         {
                             SkillJSON.map(skill => {
                                 return (
@@ -41,10 +41,10 @@ const Skills = () => {
                         }
                     </div>
                 </div>
-
-                <div className="col-12 d-flex">
-                    <div className="col-2 skill-type">Others</div>
-                    <div className="col-10">
+                <hr className='skill-seperator'></hr>
+                <div className="col-12 px-0 d-flex">
+                    <div className="col-2 px-0 skill-type">Others</div>
+                    <div className="col-10 px-0">
                         {
                             SkillJSON.map(skill => {
                                 return (

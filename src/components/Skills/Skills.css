@@ -1,5 +1,5 @@
 .skill-container {
-    width: 40%;
+    padding: 0 1.5rem;
 }
 
 .skill-title {
@@ -19,7 +19,7 @@
 }
 
 .skill-icon {
-    width: 10vw;
+    width: 6vw;
     margin: 2vw;
 }
 
@@ -30,18 +30,13 @@
     align-items: center;
 }
 
-@media only screen and (max-width: 768px) {
-    .skill-container {
-        width: 60%;
-    }
-
-    .skill-title {
-        font-size: 22px;
-    }
+.skill-seperator {
+    border: 1.2px solid rgb(220, 220, 220);
+    border-radius: 5px;
 }
 
-@media only screen and (max-width: 600px) {
-    .skill-container {
-        width: 100%;
+@media only screen and (max-width: 768px) {
+    .skill-title {
+        font-size: 22px;
     }
 }
