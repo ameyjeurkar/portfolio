@@ -18,6 +18,7 @@ import Vuejs from "./../images/skills_logo/vuejs.png";
 import Angular from "./../images/skills_logo/angular.png";
 import Vite from "./../images/skills_logo/Vitejs.png";
 import Postman from "./../images/skills_logo/postman.png";
+import AzureDevOps from "./../images/skills_logo/azure_devops.png";
 
 export const SkillJSON = [
     {
@@ -159,5 +160,12 @@ export const SkillJSON = [
         "skillIcon": Vite,
         "skillType": "other",
         "displaySequence": 55
+    },
+    {
+        "id": "azure_devops",
+        "skillName": "Azure DevOps",
+        "skillIcon": AzureDevOps,
+        "skillType": "other",
+        "displaySequence": 56
     },
 ];
