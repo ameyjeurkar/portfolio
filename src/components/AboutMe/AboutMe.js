@@ -1,5 +1,5 @@
 import React from 'react';
-import ResumePdf from './../../assets/json/AmeyJeurkar2024FrontendEngineer.pdf';
+import ResumePdf from './../../assets/json/AmeyJeurkar_FrontendEngineer.pdf';
 import './AboutMe.css';
 
 const AboutMe = () => {
@@ -38,7 +38,7 @@ const AboutMe = () => {
                 type="button"
                 className="btn btn-outline-light btn-size mx-0 btn-size"
                 onClick={downloadFile}>
-                  <a href={ResumePdf} download={`AmeyJeurkar${new Date().getFullYear()}Resume`} className="css-remove">
+                  <a href={ResumePdf} download="AmeyJeurkar_FrontendEngineer" className="css-remove">
                     Download Resume
                   </a>
               </button>
