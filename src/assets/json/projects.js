@@ -1,6 +1,14 @@
 export const ProjectsJson = [
   {
     projectType: "react",
+    projectName: "Daily Progress Tracking Checklist",
+    projectDesc: "Track your daily progress and build consistency one day at a time.",
+    projectLink: "https://progress-tracking-checklist.onrender.com/",
+    display: true,
+    displaySequence: 0,
+  },
+  {
+    projectType: "react",
     projectName: "SIP Calculator",
     projectDesc: "Developed simple yet responsive pure frontend app which lets user calculate the SIP Investment value over given period of time.",
     projectLink: "https://sip-calc.netlify.app/",
