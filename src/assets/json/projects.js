@@ -2,8 +2,8 @@ export const ProjectsJson = [
   {
     projectType: "react",
     projectName: "Daily Progress Tracking Checklist",
-    projectDesc: "Track your daily progress and build consistency one day at a time.",
-    projectLink: "https://progress-tracking-checklist.onrender.com/",
+    projectDesc: "Track your progress and achieve your monthly targets with this simple yet effective checklist application.",
+    projectLink: "https://progress-checklist.netlify.app/login",
     display: true,
     displaySequence: 0,
   },
