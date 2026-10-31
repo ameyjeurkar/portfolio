@@ -19,6 +19,16 @@ const projects = [
   },
   {
     number: "02",
+    name: "Extrocial - Social App MERN App with AWS S3",
+    category: "Social · MERN stack",
+    description:
+      "A social app for sharing posts and connecting with people, with image storage powered by AWS S3.",
+    href: "https://extrocial.netlify.app/",
+    visual: "visual-social",
+    label: "Stay a little closer.",
+  },
+  {
+    number: "03",
     name: "SIP Calculator",
     category: "Personal finance · React",
     description:
@@ -28,7 +38,7 @@ const projects = [
     label: "Growth, made clear.",
   },
   {
-    number: "03",
+    number: "04",
     name: "Infinite Scroll Giphy",
     category: "Discovery · React",
     description:
@@ -38,7 +48,7 @@ const projects = [
     label: "A little more of everything.",
   },
   {
-    number: "04",
+    number: "05",
     name: "MERN Stack Job Portal",
     category: "Recruiting · MERN stack",
     description:
@@ -46,16 +56,6 @@ const projects = [
     href: "https://github.com/ahhmay/CRUD-Operations-React",
     visual: "visual-jobs",
     label: "Good work, found.",
-  },
-  {
-    number: "05",
-    name: "MERN Stack Social",
-    category: "Social · MERN stack",
-    description:
-      "A social app for sharing posts and connecting with people, with image storage powered by AWS S3.",
-    href: "https://socialize-ourselfs.netlify.app/",
-    visual: "visual-social",
-    label: "Stay a little closer.",
   },
   {
     number: "06",
